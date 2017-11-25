@@ -1,10 +1,16 @@
+@font-face {
+  font-family: 'league_gothicregular';
+  src: url("../fonts/leaguegothic-regular-webfont.woff2") format("woff2"), url("../fonts/leaguegothic-regular-webfont.woff") format("woff"), url("../fonts/LeagueGothic-Regular.otf") format("otf");
+  font-weight: normal;
+  font-style: normal; }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
   background: #076e9f;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+  font-family: "league_gothicregular"; }
 
 .ul li {
   list-style: none; }

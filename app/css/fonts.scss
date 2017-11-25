@@ -1,1 +1,17 @@
 $arial: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+
+
+
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/LeagueGothic-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$gothic: 'league_gothicregular';
