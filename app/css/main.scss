@@ -1,0 +1,22 @@
+
+@import "colors";
+@import "fonts";
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: $main_blue;
+	font-family: $arial;
+}
+
+.ul {
+	li {
+		list-style: none;
+	}
+	a {
+		color:red ;
+	}
+}

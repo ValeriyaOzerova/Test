@@ -1,0 +1,13 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #076e9f;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+.ul li {
+  list-style: none; }
+
+.ul a {
+  color: red; }
