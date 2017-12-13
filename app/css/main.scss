@@ -2,21 +2,82 @@
 @import "colors";
 @import "fonts";
 
+.#{$fa-css-prefix} {
+  display: inline-block;
+  font: normal normal normal #{$fa-font-size-base}/#{$fa-line-height-base} FontAwesome; // shortening font declaration
+  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  text-rendering: auto; // optimizelegibility throws things off #1094
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
 
 * {
 	box-sizing: border-box;
+	border: 1px solid red;	
 }
 
 body {
-	background: $main_blue;
+	background: $one-white;
 	font-family: $gothic;
 }
+.letter{
+	color: $two-blue;
+}
+.header{
+	position: relative;
+/*	display: inline-block;*/
+}
+.cocial{
+	color: $three-grey;
+}
+.logo{
+text-transform: uppercase;
+font-family: $gothic;
+color:  #076e9f;
+font-size: 32px;
+font-weight: 400;
+line-height: 18px;
+position: absolute;
+margin-left: 40%;
+display: block;
+margin-top: 16px;
+}
+.cocial{
 
-.ul {
-	li {
-		list-style: none;
+}
+
+	ul{
+		float: right;
+
+		li{
+			display: inline-block;
+			position: relative;
+			list-style-type: none;
+		}
 	}
-	a {
-		color:red ;
+.navigation{
+		position: absolute;
+	ul{
+		float: right;
+		li{
+			text-transform: uppercase;
+			font-family: $arial;
+			color:  #707070;
+			font-size: 10px;
+			font-weight: 400;
+			line-height: 18px;
+			text-align: center;
+			position: absolute;
+			margin-left: 40%;
+			display: block;
+			margin-top: 23px;
+		}	
 	}
+}
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: table;
 }
